@@ -1,0 +1,1 @@
+cmd_/home/johan/drivers/e1000e-dkms-debian/e1000e-dkms/usr/src/e1000e-3.8.7/src/modules.order := {   echo /home/johan/drivers/e1000e-dkms-debian/e1000e-dkms/usr/src/e1000e-3.8.7/src/e1000e.ko; :; } | awk '!x[$$0]++' - > /home/johan/drivers/e1000e-dkms-debian/e1000e-dkms/usr/src/e1000e-3.8.7/src/modules.order

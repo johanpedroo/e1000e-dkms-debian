@@ -1,0 +1,1 @@
+cmd_/home/johan/drivers/e1000e-dkms-debian/e1000e-dkms/usr/src/e1000e-3.8.7/src/Module.symvers := sed 's/\.ko$$/\.o/' /home/johan/drivers/e1000e-dkms-debian/e1000e-dkms/usr/src/e1000e-3.8.7/src/modules.order | scripts/mod/modpost -m -a  -o /home/johan/drivers/e1000e-dkms-debian/e1000e-dkms/usr/src/e1000e-3.8.7/src/Module.symvers -e -i Module.symvers   -T -
